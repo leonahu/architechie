@@ -39,6 +39,11 @@ a:hover { font-size: 0; line-height: 0 }
 a:hover:before { content: attr(data-hover); font-size: 18px; line-height: 18px; }
 
 
+.footerlink {
+  font-size: 12px;
+
+}
+
 .logo {
   width:10%;
   height:auto;
@@ -47,12 +52,13 @@ a:hover:before { content: attr(data-hover); font-size: 18px; line-height: 18px; 
 }
 
 footer {
-  margin-top: 80px;
-  margin-bottom: auto;
   font-size: 12px;
   text-align: center;
 }
 
-#footerlink {
-  font-size: 12px;
+.credit {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right:auto;
+  height:auto;
 }
